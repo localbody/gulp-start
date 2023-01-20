@@ -1,0 +1,19 @@
+https://www.youtube.com/watch?v=qSZvGlIKGPg
+
+npm init -y
+
+npm i gulp -D
+
+npm i gulp-cli -g
+
+проверка в консоли пишем: gulp -v (если в винде ругает - запускаем под админом powershell и выполняем команду "Set-ExecutionPolicy RemoteSigned" отвечаем A (All))
+
+src() dest() - методы модуля gulp
+src() создает файловый поток с которым можно дальше работать методом .pipe()
+
+
+маски для файлов
+
+"./src/{html, css}/*.{html.css}" - искать *.html *.css в папках html и css
+
+** рекурсивно во всех директориях
